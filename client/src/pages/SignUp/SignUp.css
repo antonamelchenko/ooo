@@ -1,0 +1,71 @@
+.sign-in {
+  margin-right: 1.5em;
+  box-shadow: none;
+}
+
+.sign-in:active,
+.sign-up:active {
+  outline: 1px solid white;
+}
+
+.sign-up {
+  box-shadow: none;
+}
+
+.card-content > .card-title.head {
+  margin-bottom: 1.5em;
+  font-weight: 500;
+}
+
+.card-content > .input-field > label {
+  color: #32353e;
+}
+
+.auth > h3 {
+  text-align: center;
+  font-family: 'Balsamiq Sans', cursive;
+  font-weight: bold;
+  color: #32353e;
+}
+
+.auth > div {
+  max-width: 600px;
+  margin: 7% auto;
+  margin-top: 3%;
+  background-color: antiquewhite;
+}
+
+.auth .card-title.head {
+  color: #32353e;
+}
+
+.auth .card .card-action {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.auth .card-action .btn.sign-up {
+  background-color: #2ccfbf;
+  color: white;
+  display: block;
+}
+
+.auth .card-action p > .signIn {
+  color: #d1d1d1 !important;
+  text-transform: none !important;
+  display: block;
+  transition: 0.5s ease !important;
+}
+
+.auth .card-action p > .signIn:hover {
+  transform: scale(1.1);
+  color: #2ccfbf !important;
+  transition: 0.5s ease !important;
+}
+
+.auth .card .input-field .errorValidation {
+  color: red;
+  font-weight: bold;
+}
+

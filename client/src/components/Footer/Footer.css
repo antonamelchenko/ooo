@@ -1,0 +1,42 @@
+.page-footer {
+  z-index: 50;
+}
+
+.container li {
+  display: block;
+}
+
+div ul .text-lighten-3 {
+  text-decoration: underline;
+  color: white;
+}
+
+div ul .text-lighten-3:hover {
+  color: #2ccfbf;
+}
+
+.cards {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.p__cards {
+  display: block;
+  margin: 10px 0;
+}
+
+.pay {
+  margin-top: 40px;
+}
+
+.cards img {
+  display: block;
+  height: 20px;
+  padding-right: 7px;
+}
+
+.footer__span {
+  font-weight: bold;
+  color: #2ccfbf;
+}

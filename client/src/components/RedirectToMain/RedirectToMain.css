@@ -1,0 +1,13 @@
+.redirectToMain {
+  display: block;
+  background-color: #2ccfbf;
+}
+
+.redirectToMain > .navLink {
+  color: white;
+}
+
+.after {
+  width: 20px;
+  height: 20px;
+}

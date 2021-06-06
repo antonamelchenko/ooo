@@ -1,0 +1,32 @@
+.contacts__header {
+  margin-bottom: 40px;
+  text-align: center;
+  font-family: 'Balsamiq Sans', cursive;
+  text-align: center;
+  font-weight: bold;
+  color: #32353e;
+}
+
+.contacts__offlineStore {
+  margin-bottom: 80px;
+}
+
+.contacts__onlineStore {
+  margin-bottom: 100px;
+}
+
+.contacts span {
+  color: black;
+}
+
+.number {
+  text-decoration: underline;
+}
+
+.number a {
+  color: black;
+}
+
+.number a:hover {
+  color: #2ccfbf;
+}

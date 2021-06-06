@@ -1,0 +1,41 @@
+.article__container ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 4%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.article__container ul li {
+  display: block;
+  width: 20%;
+  text-align: center;
+}
+
+.article__container li i {
+  transform: scale(0.7);
+  color: #32353e;
+  transition: ease 0.2s;
+}
+
+.article__container li i:hover {
+  transform: scale(0.8);
+  color: #2ccfbf;
+  transition: ease 0.2s;
+  cursor: pointer;
+}
+
+.article__container li .icon-description > span {
+  white-space: nowrap;
+  display: block;
+}
+
+.article__container li .icon-description > span > a {
+  color: #32353e;
+}
+
+.article__container li .icon-description > span > a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}

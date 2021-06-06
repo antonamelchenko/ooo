@@ -1,0 +1,242 @@
+/* media Styles for Main */
+
+@media (min-width: 1750px) and (max-width: 1900px) {
+  .caseForRedirect {
+    margin-left: -230px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1750px) {
+  .caseForRedirect {
+    margin-left: -200px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1500px) {
+  .caseForRedirect {
+    margin-left: -170px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .main__header > cite {
+    font-size: 60px;
+  }
+
+  .caseForRedirect {
+    margin-left: -135px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .main__header > cite {
+    font-size: 60px;
+  }
+
+  .caseForRedirect {
+    margin-left: -50px;
+  }
+}
+
+@media (max-width: 767px) {
+  .main__header > cite {
+    font-size: 40px;
+  }
+  .main__aboutUs h3 {
+    font-size: 35px;
+  }
+
+  .main__popular h3 {
+    font-size: 35px;
+  }
+
+  .caseForRedirect {
+    margin-left: -10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .main__header > cite {
+    font-size: 30px;
+  }
+}
+
+/* --------------------------------------------------------- */
+
+/* media Styles for Article */
+@media (min-width: 1200px) {
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .article__container ul {
+    padding: 0 4%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+  }
+  li .icon-description > span {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .article__container ul {
+    padding: 0 3%;
+  }
+}
+
+@media (max-width: 767px) {
+  .article__container ul {
+    padding: 0 3%;
+  }
+
+  li .icon-description > span > a {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .article__container li i {
+    transform: scale(0.5);
+  }
+}
+
+/* --------------------------------------------------------- */
+
+/* media Styles for ProSlider */
+
+@media (min-width: 1200px) {
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+@media (max-width: 767px) {
+  .sliderPro .swiper-slide .title {
+    font-size: 28px;
+  }
+
+  .sliderPro .swiper-slide .title span {
+    font-size: 28px;
+  }
+
+  .sliderPro .swiper-slide .text {
+    font-size: 18px;
+  }
+
+  .sliderPro .swiper-slide .text p span {
+    font-size: 19px;
+  }
+}
+
+@media (max-width: 480px) {
+  .sliderPro .swiper-slide .title {
+    font-size: 25px;
+  }
+
+  .sliderPro .swiper-slide .title span {
+    font-size: 25px;
+  }
+
+  .sliderPro .swiper-slide .text {
+    font-size: 16px;
+  }
+
+  .sliderPro .swiper-slide .text p span {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 320px) {
+}
+
+/* --------------------------------------------------------- */
+
+/* media Styles for NavBar */
+
+@media (min-width: 1200px) {
+  .burgerButton {
+    display: none;
+  }
+  .menu {
+    display: none;
+  }
+  .blur {
+    display: none;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .burgerButton {
+    display: none;
+  }
+  .menu {
+    display: none;
+  }
+  .blur {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+@media (max-width: 605px) {
+  nav .brand-logo span {
+    margin-top: 6px;
+  }
+}
+
+@media (max-width: 480px) {
+}
+
+@media (max-width: 320px) {
+}
+
+/* --------------------------------------------------------- */
+
+/* media Styles for SignUp */
+
+@media (min-width: 1200px) {
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+@media (max-width: 767px) {
+}
+
+@media (max-width: 480px) {
+  .auth .card-action p > .signIn {
+    font-size: 12px;
+    margin-left: 40px;
+  }
+}
+
+@media (max-width: 320px) {
+}
+
+/* 
+
+@media (min-width: 1200px) {}
+
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+
+@media (min-width: 768px) and (max-width: 991px) {}
+
+
+@media (max-width: 767px) {}
+
+
+@media (max-width: 480px) {}
+
+
+@media (max-width: 320px) {}  
+
+*/

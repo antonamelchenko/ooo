@@ -1,0 +1,41 @@
+.swiper-container {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.booksSlider .swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+}
+
+.booksSlider .swiper-slide img {
+  display: block;
+  width: 100%;
+}
+
+.booksSlider .swiper-button-prev {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transition: transform 0.2s ease;
+}
+
+.booksSlider .swiper-button-prev:hover {
+  transform: scale(1.2);
+  transition: transform 0.2s ease;
+}
+
+.booksSlider .swiper-button-next {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transition: transform 0.2s ease;
+}
+
+.booksSlider .swiper-button-next:hover {
+  transform: scale(1.2);
+  transition: transform 0.2s ease;
+}

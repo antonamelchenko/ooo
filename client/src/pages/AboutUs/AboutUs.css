@@ -1,0 +1,19 @@
+.aboutUs__header {
+  margin-bottom: 40px;
+  text-align: center;
+  font-family: 'Balsamiq Sans', cursive;
+  font-weight: bold;
+  color: #32353e;
+}
+
+.aboutUs div p {
+  margin-top: 30px;
+}
+
+.aboutUs div p span {
+  margin-top: 10px;
+  display: block;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+}

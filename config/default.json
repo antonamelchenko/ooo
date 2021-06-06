@@ -1,0 +1,5 @@
+{
+  "PORT": 5000,
+  "jwtSecret": "Super secret string",
+  "mongoUri": "mongodb+srv://admin:admin123456@clusterbooksstore.5quwx.mongodb.net/app?retryWrites=true&w=majority"
+}
